@@ -7,7 +7,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hello_world/home.dart';
 
-import 'package:hello_world/homepage.dart';
+
 import 'package:hello_world/settings.dart';
 import 'package:hello_world/checklist.dart';
 
@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
 
       routes: {
         "signUp" : (context) => SignUp(),
-       // "HomePage" :  (context) => HomePage(),
+       
 
         "home" : (context) => home(),
 
