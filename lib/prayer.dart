@@ -15,7 +15,7 @@ class _prayState extends State<pray> {
     var row = Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        Text("5:01"),
+        
         Text("صلاة الفجر"),
         Image.asset(
           'img/moon.png',
