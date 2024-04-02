@@ -3,6 +3,8 @@ import 'package:location/location.dart';
 import 'package:adhan/adhan.dart';
 import 'package:intl/intl.dart';
 
+
+
 class pray extends StatefulWidget {
   const pray({super.key});
   @override
@@ -22,7 +24,7 @@ class _prayState extends State<pray> {
       appBar: AppBar(
           centerTitle: true,
           iconTheme: IconThemeData(color: Color(0xFF6869D6), size: 33),
-          title: Text("الصلاة",
+          title: const Text("الصلاة",
               style: TextStyle(
                   fontSize: 36,
                   color: Color(0xFF6869D6),
@@ -31,9 +33,7 @@ class _prayState extends State<pray> {
         future: getLoc(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(
-              child: CircularProgressIndicator(color: Colors.black12),
-            );
+            return Center(child: CircularProgressIndicator(color: Colors.black12),);
           }
           print("========================================================");
           print(latitude);
