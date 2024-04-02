@@ -50,7 +50,7 @@ class _settingsState extends State<settings> {
                               MaterialPageRoute(builder: (context) => Edit()));
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.white,
+                          backgroundColor: Colors.white,
                         ),
                         child: const Row(
                           mainAxisAlignment: MainAxisAlignment.end,
@@ -81,7 +81,7 @@ class _settingsState extends State<settings> {
                 child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.white,
+                    backgroundColor: Colors.white,
                   ),
                   child: Row(mainAxisSize: MainAxisSize.min, children: const [
                     Text('تسجيل الخروج',

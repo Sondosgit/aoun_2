@@ -101,7 +101,7 @@ class _ChecklistState extends State<Checklist> {
                 icon: Icon(Icons.mosque),
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.only(left: 110, right: 150),
-                  primary: Color.fromARGB(255, 225, 220, 220),
+                  backgroundColor: Color.fromARGB(255, 225, 220, 220),
                 ),
               ),
             ),
